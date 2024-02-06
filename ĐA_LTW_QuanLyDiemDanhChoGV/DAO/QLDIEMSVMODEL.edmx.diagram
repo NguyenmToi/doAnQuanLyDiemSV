@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b5b1416b3d6d4b04983be02b9968c124" Name="Diagram1">
+        <EntityTypeShape EntityType="QL_DIEMSVModel.DIEM" Width="1.5" PointX="5.25" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_DIEMSVModel.DIEMTK_SV" Width="1.5" PointX="12.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_DIEMSVModel.GIANGVIEN" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_DIEMSVModel.HOCKY" Width="1.5" PointX="3" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_DIEMSVModel.KHOA" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_DIEMSVModel.LOAITAIKHOAN" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_DIEMSVModel.LOP" Width="1.5" PointX="8.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_DIEMSVModel.MONHOC" Width="1.5" PointX="3" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_DIEMSVModel.NGANH" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_DIEMSVModel.NIENKHOA" Width="1.5" PointX="6" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_DIEMSVModel.SINHVIEN" Width="1.5" PointX="10.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_DIEMSVModel.sysdiagram" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_DIEMSVModel.TAIKHOANGV" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_DIEMSVModel.TAIKHOANSV" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="QL_DIEMSVModel.FK_DIEM_HOCKY" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_DIEMSVModel.FK_DIEM_LOP" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_DIEMSVModel.FK_DIEM_MONHOC" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_DIEMSVModel.FK_DIEM_NGANH" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_DIEMSVModel.FK_DIEM_SinhVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_DIEMSVModel.FK_DIEMTK_SV_SINHVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_DIEMSVModel.FK_GIANGVIEN_Khoa" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_DIEMSVModel.FK_TAIKHOANGV_GIANGVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_DIEMSVModel.FK_NGANH_Khoa" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_DIEMSVModel.FK_TAIKHOANGV_LOAITAIKHOAN" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_DIEMSVModel.FK_LOP_NGANH" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_DIEMSVModel.FK_LOP_NIENKHOA" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_DIEMSVModel.FK_SinhVien_LOP" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_DIEMSVModel.FK_SINHVIEN_NGANH" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_DIEMSVModel.FK_SinhVien_NienKhoa" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

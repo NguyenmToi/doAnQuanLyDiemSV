@@ -1,0 +1,12 @@
+C:\Users\nmt14\Downloads\data_LTW\ĐA_LTW_QuanLyDiemDanhChoGV\DTO\bin\Debug\DTO.dll
+C:\Users\nmt14\Downloads\data_LTW\ĐA_LTW_QuanLyDiemDanhChoGV\DTO\bin\Debug\DTO.pdb
+C:\Users\nmt14\Downloads\data_LTW\ĐA_LTW_QuanLyDiemDanhChoGV\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\nmt14\Downloads\data_LTW\ĐA_LTW_QuanLyDiemDanhChoGV\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\nmt14\Downloads\data_LTW\ĐA_LTW_QuanLyDiemDanhChoGV\DTO\obj\Debug\DTO.dll
+C:\Users\nmt14\Downloads\data_LTW\ĐA_LTW_QuanLyDiemDanhChoGV\DTO\obj\Debug\DTO.pdb
+C:\Users\nmt14\Downloads\ĐA_LTW_QuanLyDiemDanhChoGV\DTO\bin\Debug\DTO.dll
+C:\Users\nmt14\Downloads\ĐA_LTW_QuanLyDiemDanhChoGV\DTO\bin\Debug\DTO.pdb
+C:\Users\nmt14\Downloads\ĐA_LTW_QuanLyDiemDanhChoGV\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\nmt14\Downloads\ĐA_LTW_QuanLyDiemDanhChoGV\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\nmt14\Downloads\ĐA_LTW_QuanLyDiemDanhChoGV\DTO\obj\Debug\DTO.dll
+C:\Users\nmt14\Downloads\ĐA_LTW_QuanLyDiemDanhChoGV\DTO\obj\Debug\DTO.pdb

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6846E6D9-E01F-4188-9CC4-CE6E133A95D7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAO</RootNamespace>
+    <AssemblyName>DAO</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DIEM.cs">
+      <DependentUpon>QLDIEMSVMODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DiemDAO.cs" />
+    <Compile Include="DIEMTK_SV.cs">
+      <DependentUpon>QLDIEMSVMODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GIANGVIEN.cs">
+      <DependentUpon>QLDIEMSVMODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GiangVienDAO.cs" />
+    <Compile Include="HOCKY.cs">
+      <DependentUpon>QLDIEMSVMODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HocKyDAO.cs" />
+    <Compile Include="KHOA.cs">
+      <DependentUpon>QLDIEMSVMODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KhoaDAO.cs" />
+    <Compile Include="LOAITAIKHOAN.cs">
+      <DependentUpon>QLDIEMSVMODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiTaiKhoanDAO.cs" />
+    <Compile Include="LOP.cs">
+      <DependentUpon>QLDIEMSVMODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LopDAO.cs" />
+    <Compile Include="MONHOC.cs">
+      <DependentUpon>QLDIEMSVMODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MonHocDAO.cs" />
+    <Compile Include="NGANH.cs">
+      <DependentUpon>QLDIEMSVMODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NganhDAO.cs" />
+    <Compile Include="NIENKHOA.cs">
+      <DependentUpon>QLDIEMSVMODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NienKhoaDAO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLCapQuyenDAO.cs" />
+    <Compile Include="QLDIEMSVMODEL.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDIEMSVMODEL.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QLDIEMSVMODEL.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDIEMSVMODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QLDIEMSVMODEL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLDIEMSVMODEL.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="QLTKGVsDAO.cs" />
+    <Compile Include="QLTKSVsDAO.cs" />
+    <Compile Include="SINHVIEN.cs">
+      <DependentUpon>QLDIEMSVMODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SinhVienDAO.cs" />
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>QLDIEMSVMODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TAIKHOANGV.cs">
+      <DependentUpon>QLDIEMSVMODEL.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TAIKHOANSV.cs">
+      <DependentUpon>QLDIEMSVMODEL.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <EntityDeploy Include="QLDIEMSVMODEL.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>QLDIEMSVMODEL.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="QLDIEMSVMODEL.edmx.diagram">
+      <DependentUpon>QLDIEMSVMODEL.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{9f4134e7-e4c1-4c45-9bd9-49b33a4d2466}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="QLDIEMSVMODEL.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QLDIEMSVMODEL.edmx</DependentUpon>
+      <LastGenOutput>QLDIEMSVMODEL.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="QLDIEMSVMODEL.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QLDIEMSVMODEL.edmx</DependentUpon>
+      <LastGenOutput>QLDIEMSVMODEL.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QL_DIEMSVModelStoreContainer" CdmEntityContainer="QL_DIEMSVEntities">
+    <EntitySetMapping Name="DIEMs">
+      <EntityTypeMapping TypeName="QL_DIEMSVModel.DIEM">
+        <MappingFragment StoreEntitySet="DIEM">
+          <ScalarProperty Name="MSSV" ColumnName="MSSV" />
+          <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
+          <ScalarProperty Name="MONHOC" ColumnName="MONHOC" />
+          <ScalarProperty Name="LOP" ColumnName="LOP" />
+          <ScalarProperty Name="HOCKY" ColumnName="HOCKY" />
+          <ScalarProperty Name="DIEMCC" ColumnName="DIEMCC" />
+          <ScalarProperty Name="DIEMTBKT" ColumnName="DIEMTBKT" />
+          <ScalarProperty Name="DIEMTHIL1" ColumnName="DIEMTHIL1" />
+          <ScalarProperty Name="DIEMTHIL2" ColumnName="DIEMTHIL2" />
+          <ScalarProperty Name="DIEMTHINHAN" ColumnName="DIEMTHINHAN" />
+          <ScalarProperty Name="DIEMTONGKETMON" ColumnName="DIEMTONGKETMON" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="TRANGTHAI" ColumnName="TRANGTHAI" />
+          <ScalarProperty Name="TT" ColumnName="TT" />
+          <ScalarProperty Name="NGANH" ColumnName="NGANH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DIEMTK_SV">
+      <EntityTypeMapping TypeName="QL_DIEMSVModel.DIEMTK_SV">
+        <MappingFragment StoreEntitySet="DIEMTK_SV">
+          <ScalarProperty Name="TT" ColumnName="TT" />
+          <ScalarProperty Name="MSSV" ColumnName="MSSV" />
+          <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
+          <ScalarProperty Name="MONHOC" ColumnName="MONHOC" />
+          <ScalarProperty Name="SOTC" ColumnName="SOTC" />
+          <ScalarProperty Name="TONGKETMON" ColumnName="TONGKETMON" />
+          <ScalarProperty Name="TONGKETHOCKY" ColumnName="TONGKETHOCKY" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="TRANGTHAI" ColumnName="TRANGTHAI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GIANGVIENs">
+      <EntityTypeMapping TypeName="QL_DIEMSVModel.GIANGVIEN">
+        <MappingFragment StoreEntitySet="GIANGVIEN">
+          <ScalarProperty Name="MAGV" ColumnName="MAGV" />
+          <ScalarProperty Name="HOTENGV" ColumnName="HOTENGV" />
+          <ScalarProperty Name="KHOA" ColumnName="KHOA" />
+          <ScalarProperty Name="GIOITINH" ColumnName="GIOITINH" />
+          <ScalarProperty Name="TRANGTHAI" ColumnName="TRANGTHAI" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOCKies">
+      <EntityTypeMapping TypeName="QL_DIEMSVModel.HOCKY">
+        <MappingFragment StoreEntitySet="HOCKY">
+          <ScalarProperty Name="MAHOCKY" ColumnName="MAHOCKY" />
+          <ScalarProperty Name="TENHOCKY" ColumnName="TENHOCKY" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="TRANGTHAI" ColumnName="TRANGTHAI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHOAs">
+      <EntityTypeMapping TypeName="QL_DIEMSVModel.KHOA">
+        <MappingFragment StoreEntitySet="KHOA">
+          <ScalarProperty Name="MAKHOA" ColumnName="MAKHOA" />
+          <ScalarProperty Name="TENKHOA" ColumnName="TENKHOA" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="TRANGTHAI" ColumnName="TRANGTHAI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOAITAIKHOANs">
+      <EntityTypeMapping TypeName="QL_DIEMSVModel.LOAITAIKHOAN">
+        <MappingFragment StoreEntitySet="LOAITAIKHOAN">
+          <ScalarProperty Name="MALOAITAIKHOAN" ColumnName="MALOAITAIKHOAN" />
+          <ScalarProperty Name="TENLOAITAIKHOAN" ColumnName="TENLOAITAIKHOAN" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="TRANGTHAI" ColumnName="TRANGTHAI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOPs">
+      <EntityTypeMapping TypeName="QL_DIEMSVModel.LOP">
+        <MappingFragment StoreEntitySet="LOP">
+          <ScalarProperty Name="MALOP" ColumnName="MALOP" />
+          <ScalarProperty Name="TENLOP" ColumnName="TENLOP" />
+          <ScalarProperty Name="MANGANH" ColumnName="MANGANH" />
+          <ScalarProperty Name="MANIENKHOA" ColumnName="MANIENKHOA" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="TRANGTHAI" ColumnName="TRANGTHAI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MONHOCs">
+      <EntityTypeMapping TypeName="QL_DIEMSVModel.MONHOC">
+        <MappingFragment StoreEntitySet="MONHOC">
+          <ScalarProperty Name="MAMH" ColumnName="MAMH" />
+          <ScalarProperty Name="TENMH" ColumnName="TENMH" />
+          <ScalarProperty Name="SOTINCHI" ColumnName="SOTINCHI" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="TRANGTHAI" ColumnName="TRANGTHAI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NGANHs">
+      <EntityTypeMapping TypeName="QL_DIEMSVModel.NGANH">
+        <MappingFragment StoreEntitySet="NGANH">
+          <ScalarProperty Name="MANGANH" ColumnName="MANGANH" />
+          <ScalarProperty Name="TENNGANH" ColumnName="TENNGANH" />
+          <ScalarProperty Name="MAKHOA" ColumnName="MAKHOA" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="TRANGTHAI" ColumnName="TRANGTHAI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NIENKHOAs">
+      <EntityTypeMapping TypeName="QL_DIEMSVModel.NIENKHOA">
+        <MappingFragment StoreEntitySet="NIENKHOA">
+          <ScalarProperty Name="MANIENKHOA" ColumnName="MANIENKHOA" />
+          <ScalarProperty Name="TENNIENKHOA" ColumnName="TENNIENKHOA" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="TRANGTHAI" ColumnName="TRANGTHAI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SINHVIENs">
+      <EntityTypeMapping TypeName="QL_DIEMSVModel.SINHVIEN">
+        <MappingFragment StoreEntitySet="SINHVIEN">
+          <ScalarProperty Name="MSSV" ColumnName="MSSV" />
+          <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
+          <ScalarProperty Name="GIOITINH" ColumnName="GIOITINH" />
+          <ScalarProperty Name="NGAYSINH" ColumnName="NGAYSINH" />
+          <ScalarProperty Name="MALOP" ColumnName="MALOP" />
+          <ScalarProperty Name="CCCD" ColumnName="CCCD" />
+          <ScalarProperty Name="DANTOC" ColumnName="DANTOC" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="NIENKHOA" ColumnName="NIENKHOA" />
+          <ScalarProperty Name="TRANGTHAI" ColumnName="TRANGTHAI" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="NGANH" ColumnName="NGANH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="QL_DIEMSVModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAIKHOANGVs">
+      <EntityTypeMapping TypeName="QL_DIEMSVModel.TAIKHOANGV">
+        <MappingFragment StoreEntitySet="TAIKHOANGV">
+          <ScalarProperty Name="TT" ColumnName="TT" />
+          <ScalarProperty Name="TAIKHOAN" ColumnName="TAIKHOAN" />
+          <ScalarProperty Name="MATKHAU" ColumnName="MATKHAU" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="LOAITAIKHOAN" ColumnName="LOAITAIKHOAN" />
+          <ScalarProperty Name="TRANGTHAI" ColumnName="TRANGTHAI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TAIKHOANSVs">
+      <EntityTypeMapping TypeName="QL_DIEMSVModel.TAIKHOANSV">
+        <MappingFragment StoreEntitySet="TAIKHOANSV">
+          <ScalarProperty Name="TAIKHOAN" ColumnName="TAIKHOAN" />
+          <ScalarProperty Name="MATKHAU" ColumnName="MATKHAU" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="LOAITAIKHOAN" ColumnName="LOAITAIKHOAN" />
+          <ScalarProperty Name="TRANGTHAI" ColumnName="TRANGTHAI" />
+          <ScalarProperty Name="TT" ColumnName="TT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
